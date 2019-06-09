@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dog Age 2</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="age">Enter the your dog\'s age</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="age_ing">Your dog is</string>
+</resources>
