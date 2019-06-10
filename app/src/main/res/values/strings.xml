@@ -8,4 +8,14 @@
     <string name="about_txt"> This software has been developed only to be used to studies.
       The formula that was used to calculate is based on information that
       each human year is equivalent 7(seven) years of dog.</string>
+
+    <array name="setLang">
+        <item>PT-BT</item>
+        <item>ENG</item>
+    </array>
+
+    <array name="theme">
+        <item>Default</item>
+        <item>Light</item>
+    </array>
 </resources>

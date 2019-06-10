@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
@@ -82,7 +83,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent, bundle);
                 break;
             case R.id.setting:
-                Toast.makeText(MainActivity.this, "Settings", Toast.LENGTH_LONG).show();
+                bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this).toBundle();
+                Intent intent1 = new Intent(MainActivity.this, Settings.class);
+                startActivity(intent1, bundle);
         }
         return super.onOptionsItemSelected(item);
     }

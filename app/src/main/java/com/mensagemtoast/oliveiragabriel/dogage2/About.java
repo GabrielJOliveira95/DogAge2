@@ -9,10 +9,13 @@ import android.support.v7.widget.Toolbar;
 import android.transition.Slide;
 import android.view.Gravity;
 import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.TextView;
 
 public class About extends AppCompatActivity {
     private Toolbar toolbar;
     private MediaPlayer mediaPlayer;
+
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -23,6 +26,7 @@ public class About extends AppCompatActivity {
         mediaPlayer.start();
 
         toolbar = findViewById(R.id.toolBar);
+
         setSupportActionBar(toolbar);
 
         Slide slide = new Slide(Gravity.LEFT);
@@ -37,5 +41,16 @@ public class About extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_toolbar, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
