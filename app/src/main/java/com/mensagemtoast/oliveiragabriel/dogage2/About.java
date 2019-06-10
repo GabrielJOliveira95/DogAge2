@@ -26,6 +26,7 @@ public class About extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Slide slide = new Slide(Gravity.LEFT);
+        getWindow().setEnterTransition(slide);
 
 
 
