@@ -5,4 +5,7 @@
     <string name="age">Enter the your dog\'s age</string>
     <string name="calculate">CALCULATE</string>
     <string name="age_ing">Your dog is</string>
+    <string name="about_txt"> This software has been developed only to be used to studies.
+      The formula that was used to calculate is based on information that
+      each human year is equivalent 7(seven) years of dog.</string>
 </resources>
