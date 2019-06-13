@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="?attr/colorBackgroundFloating"
     tools:context=".Main2Activity"
-    android:theme="@style/AppTheme2"
     >
 
     <include

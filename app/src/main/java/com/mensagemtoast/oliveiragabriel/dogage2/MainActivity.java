@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     private void calculate(String age){
 
         if (age.isEmpty()){
@@ -81,11 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this).toBundle();
                 Intent intent = new Intent(MainActivity.this, About.class);
                 startActivity(intent, bundle);
-                break;
-            case R.id.setting:
-                bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this).toBundle();
-                Intent intent1 = new Intent(MainActivity.this, Settings.class);
-                startActivity(intent1, bundle);
+
         }
         return super.onOptionsItemSelected(item);
     }
