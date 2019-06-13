@@ -5,7 +5,11 @@
     android:layout_height="wrap_content"
     android:id="@+id/toolBar"
     android:background="@color/colorPrimary"
-    android:theme="@style/ThemeOverlay.AppCompat.Light">
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:elevation="4dp">
+
+
+
 
 
 

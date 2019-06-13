@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#5D99C6</color>
     <color name="colorAccent">#ff9800</color>
 
-    <color name="colorPrimaryTheme2"></color>
+    <color name="colorPrimary2">#4caf50</color>
+    <color name="colorPrimaryDark2">#087f23</color>
+    <color name="colorAccent2">#81d4fa</color>
 </resources>
